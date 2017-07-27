@@ -33,16 +33,16 @@ public class Gamepiece {
         this.color = color;
     }
 
-    int positionX;
-    int positionY;
-    boolean frozen;
-    String name;
-    String color;
+    private int positionX;
+    private int positionY;
+    private boolean frozen;
+    private String name;
+    private String color;
 
     public Gamepiece() {
-       int positionY = 0;
-       int positionX = 0;
-       boolean frozen = false;
+       this.positionY = 0;
+       this.positionX = 0;
+       this.frozen = false;
     }
 
 
